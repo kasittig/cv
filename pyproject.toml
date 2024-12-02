@@ -1,0 +1,9 @@
+[project]
+name = "cv"
+version = "0.1.0"
+description = "Karen Sittig's CV"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "rendercv>=1.14",
+]
