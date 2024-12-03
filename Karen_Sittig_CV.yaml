@@ -1,110 +1,149 @@
+# yaml-language-server: $schema=https://github.com/sinaatalay/rendercv/blob/main/schema.json?raw=true
 cv:
   name: Karen Sittig
-  location: Your Location
-  email: youremail@yourdomain.com
-  phone: tel:+90-541-999-99-99
-  website: https://yourwebsite.com/
+  email: kasittig1@gmail.com
+  phone: tel:+1-617-768-7304
   social_networks:
     - network: LinkedIn
-      username: yourusername
+      username: kasittig
     - network: GitHub
-      username: yourusername
+      username: kasittig
   sections:
-    welcome_to_RenderCV!:
-      - '[RenderCV](https://github.com/sinaatalay/rendercv) is
-        a LaTeX-based CV/resume framework. It allows you to create
-        a high-quality CV or resume as a PDF file from a YAML
-        file, with **full Markdown syntax support** and **complete
-        control over the LaTeX code**.'
-      - The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-blkv/mcdowell-cv).
-    quick_guide:
-      - bullet: Each section title is arbitrary and each section
-          contains a list of entries.
-      - bullet: 'There are 7 unique entry types: *BulletEntry*,
-          *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*,
-          *PublicationEntry*, and *OneLineEntry*.'
-      - bullet: Select a section title, pick an entry type, and
-          start writing your section!
-      - bullet: '[Here](https://docs.rendercv.com/user_guide/),
-          you can find a comprehensive user guide for RenderCV.'
+#    welcome_to_RenderCV!:
+#      - '[RenderCV](https://github.com/sinaatalay/rendercv) is
+#        a LaTeX-based CV/resume framework. It allows you to create
+#        a high-quality CV or resume as a PDF file from a YAML
+#        file, with **full Markdown syntax support** and **complete
+#        control over the LaTeX code**.'
+#      - The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-blkv/mcdowell-cv).
+#    quick_guide:
+#      - bullet: Each section title is arbitrary and each section
+#          contains a list of entries.
+#      - bullet: 'There are 7 unique entry types: *BulletEntry*,
+#          *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*,
+#          *PublicationEntry*, and *OneLineEntry*.'
+#      - bullet: Select a section title, pick an entry type, and
+#          start writing your section!
+#      - bullet: '[Here](https://docs.rendercv.com/user_guide/),
+#          you can find a comprehensive user guide for RenderCV.'
     education:
-      - institution: University of Pennsylvania
+      - institution: Massachusetts Institute of Technology
+        area: Electrical Engineering and Computer Science
+        degree: MEng
+        start_date: 2012-01
+        end_date: 2013-06
+        highlights:
+          - '**Thesis**: [An affordance-inspired tool for automated web page labeling and classification](https://dspace.mit.edu/handle/1721.1/85500)'
+          - '**Advisors:** Dr. Catherine Havasi and Dr. Kevin Gold'
+      - institution: Massachusetts Institute of Technology
         area: Computer Science
         degree: BS
-        start_date: 2000-09
-        end_date: 2005-05
-        highlights:
-          - 'GPA: 3.9/4.0 ([a link to somewhere](https://example.com))'
-          - '**Coursework:** Computer Architecture, Comparison
-            of Learning Algorithms, Computational Theory'
-    experience:
-      - company: Apple
-        position: Software Engineer
-        location: Cupertino, CA
-        start_date: 2005-06
-        end_date: 2007-08
-        highlights:
-          - Reduced time to render user buddy lists by 75% by
-            implementing a prediction algorithm
-          - Integrated iChat with Spotlight Search by creating
-            a tool to extract metadata from saved chat transcripts
-            and provide metadata to a system-wide search database
-          - Redesigned chat file format and implemented backward
-            compatibility for search
-      - company: Microsoft
-        position: Software Engineer Intern
-        location: Redmond, WA
-        start_date: 2003-06
-        end_date: 2003-08
-        highlights:
-          - Designed a UI for the VS open file switcher (Ctrl-Tab)
-            and extended it to tool windows
-          - Created a service to provide gradient across VS and
-            VS add-ins, optimizing its performance via caching
-          - Built an app to compute the similarity of all methods
-            in a codebase, reducing the time from $\mathcal{O}(n^2)$
-            to $\mathcal{O}(n \log n)$
-          - Created a test case generation tool that creates random
-            XML docs from XML Schema
-          - Automated the extraction and processing of large datasets
-            from legacy systems using SQL and Perl scripts
-    publications:
-      - title: 3D Finite Element Analysis of No-Insulation Coils
+        start_date: 2008-09
+        end_date: 2012-06
+#    experience:
+#      - company: Apple
+#        position: Software Engineer
+#        location: Cupertino, CA
+#        start_date: 2005-06
+#        end_date: 2007-08
+#        highlights:
+#          - Reduced time to render user buddy lists by 75% by
+#            implementing a prediction algorithm
+#          - Integrated iChat with Spotlight Search by creating
+#            a tool to extract metadata from saved chat transcripts
+#            and provide metadata to a system-wide search database
+#          - Redesigned chat file format and implemented backward
+#            compatibility for search
+#      - company: Microsoft
+#        position: Software Engineer Intern
+#        location: Redmond, WA
+#        start_date: 2003-06
+#        end_date: 2003-08
+#        highlights:
+#          - Designed a UI for the VS open file switcher (Ctrl-Tab)
+#            and extended it to tool windows
+#          - Created a service to provide gradient across VS and
+#            VS add-ins, optimizing its performance via caching
+#          - Built an app to compute the similarity of all methods
+#            in a codebase, reducing the time from $\mathcal{O}(n^2)$
+#            to $\mathcal{O}(n \log n)$
+#          - Created a test case generation tool that creates random
+#            XML docs from XML Schema
+#          - Automated the extraction and processing of large datasets
+#            from legacy systems using SQL and Perl scripts
+    press:
+      - title: "[Security First: 5 tips for building a secure mobile app from the ground up](https://appdevelopermagazine.com/security-first:-5-tips-for-building-a-secure-mobile-app-from-the-ground-up/)"
         authors:
-          - Frodo Baggins
-          - '***John Doe***'
-          - Samwise Gamgee
-        doi: 10.1109/TASC.2023.3340648
-        date: 2004-01
-    projects:
-      - name: Multi-User Drawing Tool
-        date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
-        highlights:
-          - Developed an electronic classroom where multiple users
-            can simultaneously view and draw on a "chalkboard"
-            with each person's edits synchronized
-          - 'Tools Used: C++, MFC'
-      - name: Synchronized Desktop Calendar
-        date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
-        highlights:
-          - Developed a desktop calendar with globally shared
-            and synchronized calendars, allowing users to schedule
-            meetings with other users
-          - 'Tools Used: C#, .NET, SQL, XML'
-      - name: Custom Operating System
-        date: 2002
-        highlights:
-          - Built a UNIX-style OS with a scheduler, file system,
-            text editor, and calculator
-          - 'Tools Used: C'
-    technologies:
-      - label: Languages
-        details: C++, C, Java, Objective-C, C#, SQL, JavaScript
-      - label: Technologies
-        details: .NET, Microsoft SQL Server, XCode, Interface
-          Builder
+          - Karen Sittig
+        date: 2016-10-05
+        journal: "App Developer Magazine"
+      - title: "[How Facebook blocks bad code from the outset](https://www.the-parallax.com/facebook-blocks-bad-code-outset/amp/)"
+        authors:
+          - Malena Carollo
+        date: 2016-05-18
+        journal: "The Parallax View"
+    conference_talks:
+      - title: "[Engineering Better Security at Facebook](https://www.youtube.com/watch?v=65iGxtcS70U)"
+        authors:
+          - Karen Sittig
+        date: 2015-10-09
+        journal: "[SecretConf](https://x.com/secretconf)"
+        location: New York, NY
+      - title: Automatically Detecting PII
+        authors:
+          - Karen Sittig
+        journal: "[Security@Scale](https://engineering.fb.com/2015/11/16/security/security-scale-2015-engineering-security/)"
+        date: 2015-11
+        location: Boston, MA
+        notes: "*Note: this talk was not listed publicly*"
+      - title: "[Engineering Better Security at Facebook](https://www.youtube.com/watch?v=3r1sIkbBk4k)"
+        authors:
+          - Karen Sittig
+        date: 2017-03-04
+        journal: "[nullcon](https://archive.nullcon.net/website/archives/goa-2017.php)"
+        location: Goa, India
+    publications:
+      - title: Modeling how thinking about the past and future impacts network traffic with the gosmr architecture
+        authors:
+          - Kevin Gold
+          - Zachary J. Weber
+          - Ben Priest
+          - Josh Ziegler
+          - '***Karen Sittig***'
+          - William W. Streilein
+          - Mark Mazumder
+        doi: 10.5555/2484920.2484944
+        date: 2013-05-06
+        journal: "AAMAS '13: Proceedings of the 2013 international conference on Autonomous agents and multi-agent systems"
+#    projects:
+#      - name: Multi-User Drawing Tool
+#        date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
+#        highlights:
+#          - Developed an electronic classroom where multiple users
+#            can simultaneously view and draw on a "chalkboard"
+#            with each person's edits synchronized
+#          - 'Tools Used: C++, MFC'
+#      - name: Synchronized Desktop Calendar
+#        date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
+#        highlights:
+#          - Developed a desktop calendar with globally shared
+#            and synchronized calendars, allowing users to schedule
+#            meetings with other users
+#          - 'Tools Used: C#, .NET, SQL, XML'
+#      - name: Custom Operating System
+#        date: 2002
+#        highlights:
+#          - Built a UNIX-style OS with a scheduler, file system,
+#            text editor, and calculator
+#          - 'Tools Used: C'
+#    technologies:
+#      - label: Languages
+#        details: C++, C, Java, Objective-C, C#, SQL, JavaScript
+#      - label: Technologies
+#        details: .NET, Microsoft SQL Server, XCode, Interface
+#          Builder
 design:
-  theme: classic
+  theme: kasittigcv
   font: Source Sans 3
   font_size: 10pt
   page_size: letterpaper
