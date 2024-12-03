@@ -1,4 +1,3 @@
-# yaml-language-server: $schema=https://github.com/sinaatalay/rendercv/blob/main/schema.json?raw=true
 cv:
   name: Karen Sittig
   email: kasittig1@gmail.com
@@ -9,23 +8,6 @@ cv:
     - network: GitHub
       username: kasittig
   sections:
-#    welcome_to_RenderCV!:
-#      - '[RenderCV](https://github.com/sinaatalay/rendercv) is
-#        a LaTeX-based CV/resume framework. It allows you to create
-#        a high-quality CV or resume as a PDF file from a YAML
-#        file, with **full Markdown syntax support** and **complete
-#        control over the LaTeX code**.'
-#      - The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-blkv/mcdowell-cv).
-#    quick_guide:
-#      - bullet: Each section title is arbitrary and each section
-#          contains a list of entries.
-#      - bullet: 'There are 7 unique entry types: *BulletEntry*,
-#          *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*,
-#          *PublicationEntry*, and *OneLineEntry*.'
-#      - bullet: Select a section title, pick an entry type, and
-#          start writing your section!
-#      - bullet: '[Here](https://docs.rendercv.com/user_guide/),
-#          you can find a comprehensive user guide for RenderCV.'
     education:
       - institution: Massachusetts Institute of Technology
         area: Electrical Engineering and Computer Science
@@ -50,7 +32,7 @@ cv:
         end_date: 2024-11
         highlights:
           - Recruited to drive diversity, equity, and inclusion in the department.
-          - Managed a team of five technical contributors creating solutions for 50+ genomics analysts. Determined the direction of the team and platform after an org-wide restructuring including a 50% RIF in the partner engineering department. Worked closely with internal partners to identify and fill gaps in existing technical solutions, resulting in new on time delivery dates for all previously-delayed projects. Discovered and mitigated multiple significant organizational risks.
+          - Managed a team of five technical contributors creating solutions for 50+ genomics analysts. Determined the direction of the team and platform after an org-wide restructuring in the partner engineering department. Worked closely with internal partners to identify and fill gaps in existing technical solutions, resulting in new on time delivery dates for all previously-delayed projects. Discovered and mitigated multiple significant organizational risks.
       - company: Firefly Arts Collective
         location: Somerville, MA
         position: Safety / Operations Cluster Lead
@@ -90,21 +72,24 @@ cv:
         end_date: 2021-08
         highlights:
           - Architected and implemented V2 of the organization's payroll product for independent contractors. Optimized the full stack web application to work performantly on low bandwidth connections.
-          - Partnered with nontechnical staff to identify high leverage opportunities for process improvements using automated tooling. Designed and implemented solutions, saving one end user an estimated 15 hours a week of manual data entry.
-#      - company: Meta
-#        location: Cambridge, MA
-#        position: Software Engineer
-#        start_date: 2015-01
-#        end_date: 2021-01
-#        highlights:
-#          - abcd
-#      - company: Twitter
-#        location: New York, NY
-#        position: Data Scientist II
-#        start_date: 2013-07
-#        end_date: 2014-10
-#        highlights:
-#          - abcd
+          - Partnered with nontechnical staff to identify high leverage opportunities for process improvements using automated tooling. Designed and implemented solutions. Saved one end user ~15 hours a week of manual data entry.
+      - company: Meta
+        location: Cambridge, MA
+        position: Software Engineer
+        start_date: 2015-01
+        end_date: 2021-01
+        highlights:
+          - "**Security Infrastructure:** Machine learning technical specialist. Designed, implemented, and evaluated machine learning classifiers and streaming data structures to support the automated detection of personally-identifiable information (PII) in the Meta data warehouse."
+          - "**SoMA:** Developer / owner of team's automated testing framework and hardware test bed. Provided on site support during field tests of the team's custom OpenWRT firmware for mesh networking. Mentored two junior engineers contributing to the hardware test bed project."
+      - company: Twitter
+        location: New York, NY
+        position: Data Scientist II
+        start_date: 2013-07
+        end_date: 2014-10
+        highlights:
+          - Machine learning technical specialist. Designed, implemented, and evaluated machine learning models to determine the country of origin for tweets without geolocation information.
+          - Partnered with internal stakeholders to define, implement, and track the precision, recall, and accuracy of a third party IP to geolocation mapping dataset.
+          - Researched, designed, and implemented graphical models to predict live user and IP address locations. Experimental models were up to 30% more accurate than existing solutions at geolocating IP addresses, even down to the zip code level.
     teaching_experience:
       - company: Firefly Arts Collective
         position: Officer of the Day / Board on Call - Trainer
@@ -129,12 +114,12 @@ cv:
         date: 2016-05-18
         journal: "The Parallax View"
     conference_talks:
-      - title: "[Engineering Better Security at Facebook](https://www.youtube.com/watch?v=65iGxtcS70U)"
+      - title: "[Engineering Better Security at Facebook](https://www.youtube.com/watch?v=3r1sIkbBk4k)"
         authors:
           - Karen Sittig
-        date: 2015-10-09
-        journal: "[SecretConf](https://x.com/secretconf)"
-        location: New York, NY
+        date: 2017-03-04
+        journal: "[nullcon](https://archive.nullcon.net/website/archives/goa-2017.php)"
+        location: Goa, India
       - title: Automatically Detecting PII
         authors:
           - Karen Sittig
@@ -142,12 +127,12 @@ cv:
         date: 2015-11
         location: Boston, MA
         notes: "*Note: the contents of this talk were not made publicly available.*"
-      - title: "[Engineering Better Security at Facebook](https://www.youtube.com/watch?v=3r1sIkbBk4k)"
+      - title: "[Engineering Better Security at Facebook](https://www.youtube.com/watch?v=65iGxtcS70U)"
         authors:
           - Karen Sittig
-        date: 2017-03-04
-        journal: "[nullcon](https://archive.nullcon.net/website/archives/goa-2017.php)"
-        location: Goa, India
+        date: 2015-10-09
+        journal: "[SecretConf](https://x.com/secretconf)"
+        location: New York, NY
     publications:
       - title: Modeling how thinking about the past and future impacts network traffic with the gosmr architecture
         authors:
@@ -161,68 +146,48 @@ cv:
         doi: 10.5555/2484920.2484944
         date: 2013-05-06
         journal: "AAMAS '13: Proceedings of the 2013 international conference on Autonomous agents and multi-agent systems"
-    grants_received:
-      - name: Sparklepony Express
+    grants_awarded:
+      - name: Sparklepony Express (Art)
         location: Bethel, VT
         date: 2024-07
-        highlights:
-          - Granted by Firefly Arts Collective.
-          - Interactive, asynchronous, distributed, volunteer-run physical mail service.
-          - Designed, fabricated and installed the primary post office. Authored [instructions](https://www.canva.com/design/DAGLrQ7HR7k/Hsj_vkqRosSVL5HTrgxD3A/edit) for the asynchronous, distributed, best-effort mail delivery volunteer protocol. Recruited and coordinated 15 volunteer-run auxillary post offices.
-      - name: "[A Friend in the Dark](https://www.instagram.com/p/C30RclXuPK9/?img_index=1)"
+#        highlights:
+#          - Granted by Firefly Arts Collective.
+#          - Interactive, asynchronous, distributed, volunteer-run physical mail service.
+#          - Designed, fabricated and installed the primary post office. Authored [instructions](https://www.canva.com/design/DAGLrQ7HR7k/Hsj_vkqRosSVL5HTrgxD3A/edit) for the asynchronous, distributed, best-effort mail delivery volunteer protocol. Recruited and coordinated 15 volunteer-run auxillary post offices.
+      - name: "[A Friend in the Dark](https://www.instagram.com/p/C30RclXuPK9/?img_index=1) (Art)"
         location: Masontown, WV
         date: 2024-02
-        highlights:
-          - "[Granted](https://docs.google.com/document/d/103XQ2XA6bX5RT-Qamr2puxTO_o5CQicpH8AEQ0Fm8yQ/edit?usp=sharing) by Frostburn."
-          - Temporary outdoor sculpture in the form of a 4' low poly sitting black cat.
-          - Solo fabricator and installer. Sculpture was designed to be easily transported and installed. Sculpture was built from ebonized marine plywood glued to a vinyl tarp backing. Sculpture pieces connected using Velcro. Sculpture was supported internally by EMT conduit.
-      - name: "[Float On](https://www.instagram.com/p/CyTfoEgubce/?img_index=1)"
+#        highlights:
+#          - "[Granted](https://docs.google.com/document/d/103XQ2XA6bX5RT-Qamr2puxTO_o5CQicpH8AEQ0Fm8yQ/edit?usp=sharing) by Frostburn."
+#          - Temporary outdoor sculpture in the form of a 4' low poly sitting black cat.
+#          - Solo fabricator and installer. Sculpture was designed to be easily transported and installed. Sculpture was built from ebonized marine plywood glued to a vinyl tarp backing. Sculpture pieces connected using Velcro. Sculpture was supported internally by EMT conduit.
+      - name: "[Float On](https://www.instagram.com/p/CyTfoEgubce/?img_index=1) (Art)"
         location: Coventry, CT
         date: 2023-10
-        highlights:
-          - "[Granted](https://docs.google.com/document/d/1saxNQLLsFWg-8fGQQX3f9jj8gXz87ROK3aR6ARrR7Hc/edit?usp=sharing) by the Northeast Connecticut Region Ember Art Festival."
-          - Temporary outdoor sculpture in the form of four floating jellyfish lanterns.
-          - Solo fabricator and installer. Sculptures were constructed from bent strips of marine plywood and waxed muslin.
-      - name: Bowl of Paperclips
+#        highlights:
+#          - "[Granted](https://docs.google.com/document/d/1saxNQLLsFWg-8fGQQX3f9jj8gXz87ROK3aR6ARrR7Hc/edit?usp=sharing) by the Northeast Connecticut Region Ember Art Festival."
+#          - Temporary outdoor sculpture in the form of four floating jellyfish lanterns.
+#          - Solo fabricator and installer. Sculptures were constructed from bent strips of marine plywood and waxed muslin.
+      - name: Bowl of Paperclips (Art)
         location: Bethel, VT
         date: 2022-07
-        highlights:
-          - "[Granted](https://docs.google.com/document/d/1UgV7GE_xfCXJwOxjvTioa8NQnJ8x5-0kFKR4ItGS9Lg/edit?usp=sharing) by Firefly Arts Collective."
-          - Temporary outdoor sculpture in the form of a pillar supporting a wooden bowl of assorted paperclips.
-          - Solo fabricator and installer. Sculpture was constructed from plywood, plastic lighting panels, and adhesive vinyl.
+#        highlights:
+#          - "[Granted](https://docs.google.com/document/d/1UgV7GE_xfCXJwOxjvTioa8NQnJ8x5-0kFKR4ItGS9Lg/edit?usp=sharing) by Firefly Arts Collective."
+#          - Temporary outdoor sculpture in the form of a pillar supporting a wooden bowl of assorted paperclips.
+#          - Solo fabricator and installer. Sculpture was constructed from plywood, plastic lighting panels, and adhesive vinyl.
     projects:
       - name: "[safety.fireflyartscollective.org](https://github.com/kasittig/firefly-safety)"
         highlights:
           - Developed an [informational website](https://safety.fireflyartscollective.org/firefly-safety/) for the Firefly Arts Collective's Safety team. Provided a browsable, searchable interface for important volunteer announcements and sign-up forms. Streamlined volunteer communications by providing easy-to-recall static links for each post.
           - "Tools used: Ruby (Jekyll), Markdown, CSS, HTML"
+    technologies:
+      - label: Programming Languages and Frameworks
+        details: Python (Django, pydantic, falcon), JavaScript (React)
+      - label: Project Management
+        details: Agile / Scrum, JIRA, GitHub Projects
+      - label: Cloud Compute Platforms
+        details: Amazon Web Services (AWS), Google Cloud Platform (GCP)
 
-#    projects:
-#      - name: Multi-User Drawing Tool
-#        date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
-#        highlights:
-#          - Developed an electronic classroom where multiple users
-#            can simultaneously view and draw on a "chalkboard"
-#            with each person's edits synchronized
-#          - 'Tools Used: C++, MFC'
-#      - name: Synchronized Desktop Calendar
-#        date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
-#        highlights:
-#          - Developed a desktop calendar with globally shared
-#            and synchronized calendars, allowing users to schedule
-#            meetings with other users
-#          - 'Tools Used: C#, .NET, SQL, XML'
-#      - name: Custom Operating System
-#        date: 2002
-#        highlights:
-#          - Built a UNIX-style OS with a scheduler, file system,
-#            text editor, and calculator
-#          - 'Tools Used: C'
-#    technologies:
-#      - label: Languages
-#        details: C++, C, Java, Objective-C, C#, SQL, JavaScript
-#      - label: Technologies
-#        details: .NET, Microsoft SQL Server, XCode, Interface
-#          Builder
 design:
   theme: kasittigcv
   font: Latin Modern Sans Serif
