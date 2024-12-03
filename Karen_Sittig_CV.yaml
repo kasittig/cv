@@ -7,6 +7,7 @@ cv:
       username: kasittig
     - network: GitHub
       username: kasittig
+
   sections:
     education:
       - institution: Massachusetts Institute of Technology
@@ -24,6 +25,9 @@ cv:
         degree: BS
         start_date: 2008-09
         end_date: 2012-06
+        highlights:
+          - '**Relevant coursework:** Introduction to Psychology, Artificial Intelligence, Robotics: Science and Systems I'
+
     leadership_experience:
       - company: Broad Institute of Harvard and MIT
         location: Cambridge, MA
@@ -40,6 +44,7 @@ cv:
         end_date: 2023-11
         highlights:
           - Directed six volunteer teams consisting of over 100 individual volunteers for a week-long, 1400 person arts festival. Volunteers provided festival attendees with first aid, mental health, fire safety, and logistical support.
+          - External event safety and liability reviewer for Firefly Arts Collective's Art Grants. Secured alternative funding for several health and safety projects outside the scope of the Art Grants program.
           - Restructured and re-scoped the priorities of multiple failing teams to better meet the organization's needs. Led the organization through multiple critical incidents including the COVID-19 pandemic and an on-site natural disaster.
       - company: Mobi Systems
         location: Somerville, MA
@@ -64,6 +69,7 @@ cv:
         highlights:
           - Coordinated with Meta employee resource group leadership to support and advocate for self-identified women in the Meta Boston office.
           - Recruited and appointed the first man-identified Women@ lead in Meta company history. Greatly increased the investment and participation of allies in critical Women@ initiatives.
+
     technical_experience:
       - company: TrueNorth
         location: Remote
@@ -79,8 +85,8 @@ cv:
         start_date: 2015-01
         end_date: 2021-01
         highlights:
-          - "**Security Infrastructure:** Machine learning technical specialist. Designed, implemented, and evaluated machine learning classifiers and streaming data structures to support the automated detection of personally-identifiable information (PII) in the Meta data warehouse."
-          - "**SoMA:** Developer / owner of team's automated testing framework and hardware test bed. Provided on site support during field tests of the team's custom OpenWRT firmware for mesh networking. Mentored two junior engineers contributing to the hardware test bed project."
+          - "**Security Infrastructure:** Machine learning technical specialist. Designed, implemented, and evaluated machine learning classifiers and streaming data structures to support the automated detection of personally-identifiable information (PII) in the Meta Hive data warehouse. Over 90% of data in the multi-petabyte data warehouse was automatically labeled, eliminating months of manual review."
+          - "**SoMA:** Technical lead for team's automated testing framework and hardware test bed. Mentored and supervised two junior contributors. Provided on site support during field tests of the team's custom OpenWRT firmware for mesh networking. Prepared framework for a potential September 2019 release to open source."
       - company: Twitter
         location: New York, NY
         position: Data Scientist II
@@ -90,6 +96,25 @@ cv:
           - Machine learning technical specialist. Designed, implemented, and evaluated machine learning models to determine the country of origin for tweets without geolocation information.
           - Partnered with internal stakeholders to define, implement, and track the precision, recall, and accuracy of a third party IP to geolocation mapping dataset.
           - Researched, designed, and implemented graphical models to predict live user and IP address locations. Experimental models were up to 30% more accurate than existing solutions at geolocating IP addresses, even down to the zip code level.
+
+    research_experience:
+      - company: MIT Lincoln Laboratory
+        position: Research Assistant
+        location: Lexington, MA
+        start_date: 2012-06
+        end_date: 2013-06
+        highlights:
+          - "**PI: Dr. Kevin Gold**"
+          - Leveraged commonsense data from the Open Mind Common Sense project to create simulated agents that could "understand" text topics and act with intention. Implemented classifiers to detect affordances on live web pages. Simulated agents that used these classifiers in conjunction with the commonsense knowledge base were able to successfully execute complex goal-directed web browsing behaviors on live web pages without additional input.
+          - Designed and ran experiments to assess the utility of various methods of topic identification and the semantic coherence of the topics produced.
+      - company: "McGovern Institute for Brain Research"
+        position: Undergraduate Research Assistant
+        location: Cambridge, MA
+        start_date: 2009-01
+        end_date: 2009-08
+        highlights:
+          - "**PI: Dr. Ann Graybiel**"
+
     teaching_experience:
       - company: Firefly Arts Collective
         position: Officer of the Day / Board on Call - Trainer
@@ -102,6 +127,18 @@ cv:
           - Proposed, wrote, and ran additional cultural onboarding to support experienced engineers joining the Meta Boston office.
           - Six biweekly sessions covered important topics such as code review best practices, maintaining work / life balance, and the performance review process. Participants reported feeling a greater sense of belonging and improved productivity compared to non-attendees.
           - Training structure and topics were adopted by other remote offices with the support of Meta's Learning and Development team.
+      - company: Massachusetts Insitute of Technology
+        position: Lead Instructor, Introduction to Python (6.S090)
+        date: "Jan 2011, Jan 2012, Jan 2013"
+      - company: Massachusetts Institute of Technology
+        position: Teaching Assistant, Computation Structures (6.004)
+        start_date: 2012-02
+        end_date: 2012-05
+      - company: Massachusetts Institute of Technology
+        position: Lab Assistant, Computation Structures (6.004)
+        start_date: 2010-09
+        end_date: 2011-12
+
     press:
       - title: "[Security First: 5 tips for building a secure mobile app from the ground up](https://appdevelopermagazine.com/security-first:-5-tips-for-building-a-secure-mobile-app-from-the-ground-up/)"
         authors:
@@ -113,6 +150,7 @@ cv:
           - Malena Carollo
         date: 2016-05-18
         journal: "The Parallax View"
+
     conference_talks:
       - title: "[Engineering Better Security at Facebook](https://www.youtube.com/watch?v=3r1sIkbBk4k)"
         authors:
@@ -133,6 +171,7 @@ cv:
         date: 2015-10-09
         journal: "[SecretConf](https://x.com/secretconf)"
         location: New York, NY
+
     publications:
       - title: Modeling how thinking about the past and future impacts network traffic with the gosmr architecture
         authors:
@@ -143,9 +182,10 @@ cv:
           - '***Karen Sittig***'
           - William W. Streilein
           - Mark Mazumder
-        doi: 10.5555/2484920.2484944
+        url: https://dl.acm.org/doi/10.5555/2484920.2484944
         date: 2013-05-06
         journal: "AAMAS '13: Proceedings of the 2013 international conference on Autonomous agents and multi-agent systems"
+
     grants_awarded:
       - name: Sparklepony Express (Art)
         location: Bethel, VT
@@ -175,14 +215,16 @@ cv:
 #          - "[Granted](https://docs.google.com/document/d/1UgV7GE_xfCXJwOxjvTioa8NQnJ8x5-0kFKR4ItGS9Lg/edit?usp=sharing) by Firefly Arts Collective."
 #          - Temporary outdoor sculpture in the form of a pillar supporting a wooden bowl of assorted paperclips.
 #          - Solo fabricator and installer. Sculpture was constructed from plywood, plastic lighting panels, and adhesive vinyl.
+
     projects:
       - name: "[safety.fireflyartscollective.org](https://github.com/kasittig/firefly-safety)"
         highlights:
           - Developed an [informational website](https://safety.fireflyartscollective.org/firefly-safety/) for the Firefly Arts Collective's Safety team. Provided a browsable, searchable interface for important volunteer announcements and sign-up forms. Streamlined volunteer communications by providing easy-to-recall static links for each post.
           - "Tools used: Ruby (Jekyll), Markdown, CSS, HTML"
+
     technologies:
       - label: Programming Languages and Frameworks
-        details: Python (Django, pydantic, falcon), JavaScript (React)
+        details: Python (Django, pydantic, falcon), JavaScript (React), Git
       - label: Project Management
         details: Agile / Scrum, JIRA, GitHub Projects
       - label: Cloud Compute Platforms
@@ -190,7 +232,7 @@ cv:
 
 design:
   theme: kasittigcv
-  font: Latin Modern Sans Serif
+  font: Roboto
   font_size: 10pt
   page_size: letterpaper
   color: '#004f90'

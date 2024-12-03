@@ -43,6 +43,7 @@ class KasittigcvThemeOptions(ThemeOptions):
         "Latin Modern Mono",
         "Source Sans 3",
         "Charter",
+        "Roboto",
     ] = pydantic.Field(
         default="Source Sans 3",
         title="Font",

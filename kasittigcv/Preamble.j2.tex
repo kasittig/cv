@@ -54,6 +54,10 @@
 \usepackage[default, type1]{sourcesanspro} 
 ((* elif design.font == "Charter" *))
 \usepackage{charter}
+((* elif design.font == "Roboto" *))
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[sfdefault, type1]{roboto}
+\usepackage[T1]{fontenc}
 ((* endif *))
 
 % Some settings:
