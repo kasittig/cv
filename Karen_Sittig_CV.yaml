@@ -29,6 +29,7 @@ cv:
     education:
       - institution: Massachusetts Institute of Technology
         area: Electrical Engineering and Computer Science
+        location: Cambridge, MA
         degree: MEng
         start_date: 2012-01
         end_date: 2013-06
@@ -37,40 +38,85 @@ cv:
           - '**Advisors:** Dr. Catherine Havasi and Dr. Kevin Gold'
       - institution: Massachusetts Institute of Technology
         area: Computer Science
+        location: Cambridge, MA
         degree: BS
         start_date: 2008-09
         end_date: 2012-06
-#    experience:
-#      - company: Apple
+    leadership_experience:
+      - company: Broad Institute of Harvard and MIT
+        location: Cambridge, MA
+        position: Engineering Manager - Hail Team
+        start_date: 2024-09
+        end_date: 2024-11
+        highlights:
+          - Recruited to drive diversity, equity, and inclusion in the department.
+          - Managed a team of five technical contributors creating solutions for 50+ genomics analysts. Determined the direction of the team and platform after an org-wide restructuring including a 50% RIF in the partner engineering department. Worked closely with internal partners to identify and fill gaps in existing technical solutions, resulting in new on time delivery dates for all previously-delayed projects. Discovered and mitigated multiple significant organizational risks.
+      - company: Firefly Arts Collective
+        location: Somerville, MA
+        position: Safety / Operations Cluster Lead
+        start_date: 2020-02
+        end_date: 2023-11
+        highlights:
+          - Directed six volunteer teams consisting of over 100 individual volunteers for a week-long, 1400 person arts festival. Volunteers provided festival attendees with first aid, mental health, fire safety, and logistical support.
+          - Restructured and re-scoped the priorities of multiple failing teams to better meet the organization's needs. Led the organization through multiple critical incidents including the COVID-19 pandemic and an on-site natural disaster.
+      - company: Mobi Systems
+        location: Somerville, MA
+        position: Lead Engineer - Data Infrastructure
+        start_date: 2022-01
+        end_date: 2023-08
+        highlights:
+          - Hired, managed and mentored a diverse team of four early career software engineers.
+          - Architected a scalable, performant, cost-effective data platform using Amazon Web Services. Designed the data model and process for normalizing and merging multiple distinct datasets containing point-of-interest data. Supported team members in migrating the legacy data pipeline to the new data platform.
+          - Authored and maintained developer tooling for the team's Python monorepo to support automated code deployments to multiple AWS services such as Lambda, Sagemaker, and Glue. Created local development environments using Docker that greatly increased the team's iteration speed. All migration work was completed in approximately six weeks, substantially ahead of schedule.
+      - company: Meta
+        location: Cambridge, MA
+        position: Intern Director
+        start_date: 2019-06
+        end_date: 2019-08
+        highlights:
+          - Managed and mentored intern managers in the Meta Boston office.
+          - Reviewed and approved intern project proposals for technical scoping and feasibility. Coached intern managers in evaluating intern performance and in delivering intern feedback.
+      - company: Meta
+        location: Cambridge, MA
+        position: Women@ Co-Lead
+        highlights:
+          - Coordinated with Meta employee resource group leadership to support and advocate for self-identified women in the Meta Boston office.
+          - Recruited and appointed the first man-identified Women@ lead in Meta company history. Greatly increased the investment and participation of allies in critical Women@ initiatives.
+    technical_experience:
+      - company: TrueNorth
+        location: Remote
+        position: Senior Software Engineer
+        start_date: 2021-01
+        end_date: 2021-08
+        highlights:
+          - Architected and implemented V2 of the organization's payroll product for independent contractors. Optimized the full stack web application to work performantly on low bandwidth connections.
+          - Partnered with nontechnical staff to identify high leverage opportunities for process improvements using automated tooling. Designed and implemented solutions, saving one end user an estimated 15 hours a week of manual data entry.
+#      - company: Meta
+#        location: Cambridge, MA
 #        position: Software Engineer
-#        location: Cupertino, CA
-#        start_date: 2005-06
-#        end_date: 2007-08
+#        start_date: 2015-01
+#        end_date: 2021-01
 #        highlights:
-#          - Reduced time to render user buddy lists by 75% by
-#            implementing a prediction algorithm
-#          - Integrated iChat with Spotlight Search by creating
-#            a tool to extract metadata from saved chat transcripts
-#            and provide metadata to a system-wide search database
-#          - Redesigned chat file format and implemented backward
-#            compatibility for search
-#      - company: Microsoft
-#        position: Software Engineer Intern
-#        location: Redmond, WA
-#        start_date: 2003-06
-#        end_date: 2003-08
+#          - abcd
+#      - company: Twitter
+#        location: New York, NY
+#        position: Data Scientist II
+#        start_date: 2013-07
+#        end_date: 2014-10
 #        highlights:
-#          - Designed a UI for the VS open file switcher (Ctrl-Tab)
-#            and extended it to tool windows
-#          - Created a service to provide gradient across VS and
-#            VS add-ins, optimizing its performance via caching
-#          - Built an app to compute the similarity of all methods
-#            in a codebase, reducing the time from $\mathcal{O}(n^2)$
-#            to $\mathcal{O}(n \log n)$
-#          - Created a test case generation tool that creates random
-#            XML docs from XML Schema
-#          - Automated the extraction and processing of large datasets
-#            from legacy systems using SQL and Perl scripts
+#          - abcd
+    teaching_experience:
+      - company: Firefly Arts Collective
+        position: Officer of the Day / Board on Call - Trainer
+        highlights:
+          - Wrote and ran joint team-building and skill development training for critical event volunteers for the 2022 and 2023 events. Volunteers learned to lead emergency responses, mediate and de-escalate conflicts, coordinate with local authorities, and delegate / escalate issues as appropriate.
+          - Trainings resulted in significant improvements in self-reported volunteer experience and a significant decrease in the average amount of volunteer time required to close incidents.
+      - company: Meta
+        position: Jedi Academy - Co-Instructor
+        highlights:
+          - Proposed, wrote, and ran additional cultural onboarding to support experienced engineers joining the Meta Boston office.
+          - Six biweekly sessions covered important topics such as code review best practices, maintaining work / life balance, and the performance review process. Participants reported feeling a greater sense of belonging and improved productivity compared to non-attendees.
+          - Training structure and topics were adopted by other remote offices with the support of Meta's Learning and Development team.
     press:
       - title: "[Security First: 5 tips for building a secure mobile app from the ground up](https://appdevelopermagazine.com/security-first:-5-tips-for-building-a-secure-mobile-app-from-the-ground-up/)"
         authors:
@@ -95,7 +141,7 @@ cv:
         journal: "[Security@Scale](https://engineering.fb.com/2015/11/16/security/security-scale-2015-engineering-security/)"
         date: 2015-11
         location: Boston, MA
-        notes: "*Note: this talk was not listed publicly*"
+        notes: "*Note: the contents of this talk were not made publicly available.*"
       - title: "[Engineering Better Security at Facebook](https://www.youtube.com/watch?v=3r1sIkbBk4k)"
         authors:
           - Karen Sittig
@@ -115,6 +161,41 @@ cv:
         doi: 10.5555/2484920.2484944
         date: 2013-05-06
         journal: "AAMAS '13: Proceedings of the 2013 international conference on Autonomous agents and multi-agent systems"
+    grants_received:
+      - name: Sparklepony Express
+        location: Bethel, VT
+        date: 2024-07
+        highlights:
+          - Granted by Firefly Arts Collective.
+          - Interactive, asynchronous, distributed, volunteer-run physical mail service.
+          - Designed, fabricated and installed the primary post office. Authored [instructions](https://www.canva.com/design/DAGLrQ7HR7k/Hsj_vkqRosSVL5HTrgxD3A/edit) for the asynchronous, distributed, best-effort mail delivery volunteer protocol. Recruited and coordinated 15 volunteer-run auxillary post offices.
+      - name: "[A Friend in the Dark](https://www.instagram.com/p/C30RclXuPK9/?img_index=1)"
+        location: Masontown, WV
+        date: 2024-02
+        highlights:
+          - "[Granted](https://docs.google.com/document/d/103XQ2XA6bX5RT-Qamr2puxTO_o5CQicpH8AEQ0Fm8yQ/edit?usp=sharing) by Frostburn."
+          - Temporary outdoor sculpture in the form of a 4' low poly sitting black cat.
+          - Solo fabricator and installer. Sculpture was designed to be easily transported and installed. Sculpture was built from ebonized marine plywood glued to a vinyl tarp backing. Sculpture pieces connected using Velcro. Sculpture was supported internally by EMT conduit.
+      - name: "[Float On](https://www.instagram.com/p/CyTfoEgubce/?img_index=1)"
+        location: Coventry, CT
+        date: 2023-10
+        highlights:
+          - "[Granted](https://docs.google.com/document/d/1saxNQLLsFWg-8fGQQX3f9jj8gXz87ROK3aR6ARrR7Hc/edit?usp=sharing) by the Northeast Connecticut Region Ember Art Festival."
+          - Temporary outdoor sculpture in the form of four floating jellyfish lanterns.
+          - Solo fabricator and installer. Sculptures were constructed from bent strips of marine plywood and waxed muslin.
+      - name: Bowl of Paperclips
+        location: Bethel, VT
+        date: 2022-07
+        highlights:
+          - "[Granted](https://docs.google.com/document/d/1UgV7GE_xfCXJwOxjvTioa8NQnJ8x5-0kFKR4ItGS9Lg/edit?usp=sharing) by Firefly Arts Collective."
+          - Temporary outdoor sculpture in the form of a pillar supporting a wooden bowl of assorted paperclips.
+          - Solo fabricator and installer. Sculpture was constructed from plywood, plastic lighting panels, and adhesive vinyl.
+    projects:
+      - name: "[safety.fireflyartscollective.org](https://github.com/kasittig/firefly-safety)"
+        highlights:
+          - Developed an [informational website](https://safety.fireflyartscollective.org/firefly-safety/) for the Firefly Arts Collective's Safety team. Provided a browsable, searchable interface for important volunteer announcements and sign-up forms. Streamlined volunteer communications by providing easy-to-recall static links for each post.
+          - "Tools used: Ruby (Jekyll), Markdown, CSS, HTML"
+
 #    projects:
 #      - name: Multi-User Drawing Tool
 #        date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
@@ -144,7 +225,7 @@ cv:
 #          Builder
 design:
   theme: kasittigcv
-  font: Source Sans 3
+  font: Latin Modern Sans Serif
   font_size: 10pt
   page_size: letterpaper
   color: '#004f90'
