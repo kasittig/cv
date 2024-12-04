@@ -18,7 +18,7 @@ cv:
         end_date: 2013-06
         highlights:
           - '**Thesis**: [An affordance-inspired tool for automated web page labeling and classification](https://dspace.mit.edu/handle/1721.1/85500)'
-          - '**Advisors:** Dr. Catherine Havasi and Dr. Kevin Gold'
+          - '**Advisors:** [Dr. Catherine Havasi](https://solve.mit.edu/users/catherine-havasi) and [Dr. Kevin Gold](https://www.bu.edu/cds-faculty/profile/klgold/)'
       - institution: Massachusetts Institute of Technology
         area: Computer Science
         location: Cambridge, MA
@@ -26,12 +26,12 @@ cv:
         start_date: 2008-09
         end_date: 2012-06
         highlights:
-          - '**Relevant coursework:** Introduction to Psychology, Artificial Intelligence, Robotics: Science and Systems I'
+          - '**Relevant coursework:** [Introduction to Psychology](https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/), [Artificial Intelligence](https://ocw.mit.edu/courses/6-034-artificial-intelligence-fall-2010/), [Robotics: Science and Systems I](https://courses.csail.mit.edu/6.141/spring2011/)'
 
     leadership_experience:
       - company: Broad Institute of Harvard and MIT
         location: Cambridge, MA
-        position: Engineering Manager - Hail Team
+        position: "Engineering Manager - [Hail Team](https://hail.is/)"
         start_date: 2024-09
         end_date: 2024-11
         highlights:
@@ -46,7 +46,7 @@ cv:
           - Directed six volunteer teams consisting of over 100 individual volunteers for a week-long, 1400 person arts festival. Volunteers provided festival attendees with first aid, mental health, fire safety, and logistical support.
           - External event safety and liability reviewer for Firefly Arts Collective's Art Grants. Secured alternative funding for several health and safety projects outside the scope of the Art Grants program.
           - Restructured and re-scoped the priorities of multiple failing teams to better meet the organization's needs. Led the organization through multiple critical incidents including the COVID-19 pandemic and an on-site natural disaster.
-      - company: Mobi Systems
+      - company: "[Mobi Systems](https://www.takemobi.com/)"
         location: Somerville, MA
         position: Lead Engineer - Data Infrastructure
         start_date: 2022-01
@@ -54,7 +54,7 @@ cv:
         highlights:
           - Hired, managed and mentored a diverse team of four early career software engineers.
           - Architected a scalable, performant, cost-effective data platform using Amazon Web Services. Designed the data model and process for normalizing and merging multiple distinct datasets containing point-of-interest data. Supported team members in migrating the legacy data pipeline to the new data platform.
-          - Authored and maintained developer tooling for the team's Python monorepo to support automated code deployments to multiple AWS services such as Lambda, Sagemaker, and Glue. Created local development environments using Docker that greatly increased the team's iteration speed. All migration work was completed in approximately six weeks, substantially ahead of schedule.
+          - Authored and maintained developer tooling for the team's Python monorepo to support automated code deployments to multiple AWS services such as Lambda, Sagemaker, and Glue. Created local development environments using Docker that greatly increased the team's iteration speed. Migration work was completed substantially ahead of schedule.
       - company: Meta
         location: Cambridge, MA
         position: Intern Director
@@ -71,7 +71,7 @@ cv:
           - Recruited and appointed the first man-identified Women@ lead in Meta company history. Greatly increased the investment and participation of allies in critical Women@ initiatives.
 
     technical_experience:
-      - company: TrueNorth
+      - company: "[TrueNorth](https://www.truenorth.com/)"
         location: Remote
         position: Senior Software Engineer
         start_date: 2021-01
@@ -104,7 +104,7 @@ cv:
         start_date: 2012-06
         end_date: 2013-06
         highlights:
-          - "**PI: Dr. Kevin Gold**"
+          - "**PI: [Dr. Kevin Gold](https://www.bu.edu/cds-faculty/profile/klgold/)**"
           - Leveraged commonsense data from the Open Mind Common Sense project to create simulated agents that could "understand" text topics and act with intention. Implemented classifiers to detect affordances on live web pages. Simulated agents that used these classifiers in conjunction with the commonsense knowledge base were able to successfully execute complex goal-directed web browsing behaviors on live web pages without additional input.
           - Designed and ran experiments to assess the utility of various methods of topic identification and the semantic coherence of the topics produced.
       - company: "McGovern Institute for Brain Research"
@@ -113,7 +113,7 @@ cv:
         start_date: 2009-01
         end_date: 2009-08
         highlights:
-          - "**PI: Dr. Ann Graybiel**"
+          - "**PI: [Dr. Ann Graybiel](https://mcgovern.mit.edu/profile/ann-graybiel/)**"
 
     teaching_experience:
       - company: Firefly Arts Collective
@@ -224,7 +224,7 @@ cv:
 
     technologies:
       - label: Programming Languages and Frameworks
-        details: Python (Django, pydantic, falcon), JavaScript (React), Git
+        details: Python ([Django](https://www.djangoproject.com/), [pydantic](https://docs.pydantic.dev/latest/), [falcon](https://falcon.readthedocs.io/en/stable/)), JavaScript ([React](https://react.dev/)), Git
       - label: Project Management
         details: Agile / Scrum, JIRA, GitHub Projects
       - label: Cloud Compute Platforms
